@@ -8,7 +8,7 @@ namespace HaylandMontalvo_EjercicioCF.Models
         [Required]
         public string? Name { get; set; }
         public bool WithCheese { get; set; }
-        [Range(0.01, 9999.99)]
+        [Range(0.01, 3.50)]
         public decimal Precio { get; set; }
     }
 }
